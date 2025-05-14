@@ -36,5 +36,23 @@ This repository contains a series of Jupyter notebooks for deep learning-based c
 
 ---
 
+## Model Performances
+### Individual Models
+| Model         | Training Acc | Validation Acc | Testing Acc |
+|---------------|--------------|----------------|-------------|
+| Baseline      | 71.88%       | 72.60%         | 74.05%      |
+| VGG16         | 79.69%       | 77.05%         | 77.54%      |
+| InceptionV3   | 75.41%       | 76.16%         | 77.84%      |
+| InceptionV2   | 81.62%       | 82.26%         | 81.94%      |
+| DenseNet201   | 85.63%       | 83.48%         | 82.53%      |
+
+### Ensemble Models
+
+| Ensemble Models                     | Validation Acc | Testing Acc |
+|-------------------------------------|----------------|-------------|
+| InceptionV3 + InceptionV2 + DenseNet| 84.47%         | 83.43%      |
+| InceptionV2 + DenseNet              | 85.59%         | 83.93%      |
+
+
 **Note**: The dataset, models, and intermediate files are excluded from the repository and are listed in `.gitignore` for performance reasons.
 
