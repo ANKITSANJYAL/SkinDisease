@@ -3,7 +3,7 @@
 This repository contains a series of Jupyter notebooks for deep learning-based classification and exploratory analysis of skin disease images using various convolutional neural network (CNN) architectures. The project aims to benchmark multiple models, analyze performance metrics, and build an ensemble for improved diagnostic accuracy.
 
 ## Sample Images
-![Sample Images]]
+![Sample Images]https://github.com/ANKITSANJYAL/SkinDisease/blob/main/images/category_samples.png
 
 ## 📁 Notebooks Overview
 
